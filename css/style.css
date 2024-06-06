@@ -1,0 +1,321 @@
+body{
+	background-color: #FAFAFA;
+}
+
+
+.current-page{
+	color: #6495ED;
+	text-decoration: underline;
+}
+
+.header{
+
+padding: 0;
+}
+
+
+.header a{
+	color: black;
+	text-decoration:none;
+	
+	font-size: 18px;
+}
+
+.header a:hover{
+	text-decoration: underline;
+}
+
+
+.header ul{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.header li{
+list-style: none;
+display: inline-flex;
+
+}
+
+
+.current-page li{
+	display: inline-block;
+}
+
+#intro-image{
+	float: right;
+	width: 350px;
+	padding-left: 100px;
+	border-radius: 10px;
+}
+
+.intro-box{
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 100px;
+	background-color: #f5f3d7;
+	padding-left: 50px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	
+}
+
+.intro-header{
+text-align: center;
+}
+
+.intro-header h1{
+	font-weight: 500;
+	font-size: 40px;
+}
+
+.name{
+	font-weight: 700;
+}
+
+
+.intro-subheader{
+	word-spacing: -1px;
+}
+
+.intro-subheader h2{
+	font-weight: 500;
+}
+
+.intro-text{
+	line-height: 1.6em;
+	text-align: left;
+	font-size: 18px;
+}
+
+#contact-button{
+	background-color: #1f252b;
+	color: white;
+	border: none;
+	font-family: 'Times New Roman', serif;
+	padding: 10px;
+	margin-top: 100px;
+	margin-right: 50px;
+	padding-right: 55px;
+	float: right;
+	font-size: 18px;
+	width: 200px;
+	border-radius: 10px;
+}
+
+#contact-button a{
+	color: white;
+	text-decoration: none;
+	padding-left: 50px;
+}
+
+.divider {
+  border-top: 5px solid black; /* Change color and thickness as needed */
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+.contact-header{
+	padding-top: 10px;
+	color: black;
+	font-size: 20px;
+}
+
+.contact-header h2{
+	font-weight: 400;
+	color: white;
+	text-align: center;
+}
+
+.contact-box{
+	margin-top: 100px;
+	background-color: #1f252b;
+	margin-left: 30%;
+	margin-right: 30%;
+	color: white;
+	border-radius: 10px;
+	padding-bottom: 10px;
+}
+
+.contact-box ul{
+	list-style: none;
+
+}
+
+.contact-links img{
+width: 50px;
+margin-right: 1400px;
+background-color: white;
+border-radius: 10px;
+background-size: 10px 10px;
+
+}
+.contact-links{
+	margin-top: 10px;
+	text-align: justify;
+	margin-right: 1300px;
+	
+}
+.contact-links li{
+	line-height: 1em;
+	display: inline-block;
+	padding-top: 10px;
+}
+
+.contact-links a{
+color: white;
+text-decoration: none;
+display: inline-block;
+text-align: left;
+font-size: 18px;
+}
+
+#resume-box iframe{
+	width: 90%;
+	margin-left: 80px;
+	height: 850px;
+	margin-top: 50px;
+}
+
+.projects-header h1{
+	margin-top: 50px;
+text-align: center;
+margin-bottom: 50px;
+}
+
+
+.project-blockmidleft{
+	float:left;
+	width: 25%;
+	border:1px solid #ccc;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing:border-box;
+	text-align: center;
+	background-color: #dcdfe3;
+}
+
+.project-blockmidright{
+	float:left;
+	width: 25%;
+	border:1px solid #ccc;
+	box-sizing:border-box;
+	text-align: center;
+	background-color: #dcdfe3;
+	
+	}
+
+.project-blockmidleft h3{
+	font-size: 24px;
+	margin-top: 10px
+}
+.project-blockmidright h3{
+	font-size: 24px;
+	margin-top: 25px;
+}
+
+
+.project-blockleft h3{
+	font-size: 24px;
+}
+
+.project-blockright h3{
+	font-size: 24px;
+	margin-top: 27px;
+	padding-bottom: 15px;
+
+}
+
+.project-blockmidleft p{
+	font-size: 18px;
+	margin-top: -13px;
+}
+.project-blockmidright p{
+	font-size: 18px;
+	margin-top: -6px;
+}
+
+.project-blockleft p{
+	font-size: 18px;
+}
+
+.project-blockright p{
+	font-size: 18px;
+	margin-top: -10px;
+}
+
+
+.project-blockleft{
+	float:left;
+	width: 25%;
+	border:1px solid #ccc;
+	padding:10px;
+	box-sizing:border-box;
+	margin-left: 40px;
+	text-align: center;
+	background-color: #dcdfe3;
+
+}
+
+.project-blockright{
+	float:left;
+	width: 20%;
+	border:1px solid #ccc;
+	padding:10px;
+	box-sizing:border-box;
+	text-align: center;
+	background-color: #dcdfe3;
+	
+
+}
+
+
+.project-blockmidleft img {
+	width: 175px;
+
+}
+.project-blockmidright img {
+	width: 190px;
+
+}
+
+#matrix-image{
+	width: 200px;
+	
+}
+
+#portfolio-image{
+	width: 300px;
+}
+
+#project-button{
+	background-color: #1f252b;
+	color: white;
+	border: none;
+	font-family: 'Times New Roman', serif;
+	padding: 10px;
+	margin-top: 75px;
+	margin-left: 17%;
+	
+	font-size: 24px;
+	width: 200px;
+	border-radius: 10px;
+}
+
+#project-button a{
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+
+
+
+
+
+
+

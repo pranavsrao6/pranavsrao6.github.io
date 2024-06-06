@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pranav Rao</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+
+<body>
+	
+		<div class="header">
+
+
+			<ul>
+
+				<li><a href="index.html"><span class="current-page"> ABOUT ME</span> </a></li>
+				<li><a href="Resume.html"> RESUME </a></li>
+				<li><a href="Projects.html"> PROJECTS </a></li>
+				<li><a href="#"> EXTRA </a></li>
+
+			</ul>
+
+		</div>
+
+		<div class="intro-box">
+
+			<img src="images/pic.png" id="intro-image">
+
+			<div class="intro-header">
+
+				<h1>Hey There!</h1>
+
+			</div>
+
+				
+				
+			<div class="intro-subheader">
+
+				<h2>I'm <span class="name">Pranav Rao </span> </h2>
+
+			</div>
+			
+			<div class="intro-text">
+
+				<p>I am a junior at Rutgers University–New Brunswick, where I am pursuing a Bachelor's Degree in Computer Science as well as Data Science. I am currently looking for a Technology Internship to gain work experience and apply my skills in real-world scenarios. I am deeply passionate about exploring the intersection of Data Analytics and Computer Programming. I have experience in programming in different languages and expanding my knowledge in data modeling. I am highly motivated and looking forward to the challenges ahead. </p> 
+
+			</div>
+			
+			<img src="images/rutgers.png">
+
+			<button type="button" id="contact-button"> <a href="#contact-header">Contact Me</a></button>
+
+			<script>
+			  // JavaScript code
+			  var imageContainer = document.querySelector('.contact-image');
+			  document.getElementById('contact-button').addEventListener('click', function() {
+
+			    // Scroll to the bottom of the page
+			    window.scrollTo({
+			      top: document.documentElement.scrollHeight,
+			      behavior: 'smooth'
+			    });
+			    imageContainer.classList.toggle('active');
+			  });
+			</script>
+
+			
+		</div>
+
+		<div class="divider"></div>
+
+
+		<div class="contact-box">
+
+
+			<ul>
+				<div class="contact-header">
+
+					<h2>My Links:</h2>
+
+				</div>
+
+				<div class="contact-links">
+					<li><a href="tel:(609) 384-9812" target="_blank"><img src="images/phone.png" class="contact-image"></a>(609) 384-9812</li>
+				</div>
+
+				<div class="contact-links">
+
+					<li><a href="mailto:pranavsrao6@gmail.com" target="_blank"> <img src="images/mail.png" class="contact-image">pranavsrao6@gmail.com</a></li>
+					
+				</div>
+
+				<div class="contact-links">
+					
+					<li><a href="https://www.linkedin.com/in/pranav-rao-09610022b/" target="_blank"><img src="images/linkedin.png" class="contact-image"></a></li>
+
+				</div>
+
+
+				<div class="contact-links">
+
+					<li><a href="https://github.com/pranavsrao6" target="_blank"><img src="images/github.png" class="contact-image"></a></li>
+
+				</div>
+
+
+				</div>
+				
+				
+			</ul>
+
+
+		</div>
+
+
+
+
+		
+
+
+
+</body>
+</html>
